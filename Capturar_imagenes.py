@@ -16,11 +16,6 @@ if not os.path.exists(Datos):
 # Obtener la imagen del webcam
 capture = cv2.VideoCapture(0)
 
-#si se quire utilizar la cámara del celular
-ip="http://192.168.100.142:4747/video"
-capture.open(ip)
-
-
 # variable para incrementar las imagenes a guardar 
 count = 1
 # estructura de repetición para activar la camara y la toma de imágenes
