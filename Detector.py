@@ -5,9 +5,6 @@ import cv2
 # https://es.acervolima.com/como-obtener-las-propiedades-del-objeto-python-cv2-videocapture/
 capture = cv2.VideoCapture(0)
 
-#si se quiere utilizar la cámara del celular
-ip="http://192.168.100.142:4747/video"
-capture.open(ip)
 
 # Utilizar el clasificador proporcionado por la herramienta Cascade-Trainer-GUI
 # https://docs.opencv.org/4.3.0/dc/d88/tutorial_traincascade.html
